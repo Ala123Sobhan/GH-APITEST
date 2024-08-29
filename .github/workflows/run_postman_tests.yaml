@@ -2,7 +2,7 @@ name: Newman API Tests
 on:
   workflow_dispatch:
   schedule:
-    - cron: "38 23 * * *"
+    - cron: "32 2 * * *"
 jobs:
   test:
     environment: staging
