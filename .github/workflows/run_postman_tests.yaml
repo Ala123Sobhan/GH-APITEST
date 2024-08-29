@@ -1,6 +1,5 @@
 name: Newman API Tests
 on:
-  workflow_dispatch:
   schedule:
     - cron: "*/5 * * * *"
 jobs:
